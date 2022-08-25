@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ef7b196-8a3b-4e3d-b6b8-8d4195b0a388" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/public/app.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/src/views/LoginView.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/src/views/ticket/CreateView.vue" afterDir="false" />
@@ -9,10 +10,7 @@
       <change afterPath="$PROJECT_DIR$/front-end/src/views/ticket/IndexView.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/src/views/ticket/ShowView.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validations/loginErrors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end" beforeDir="false" afterPath="$PROJECT_DIR$/front-end" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
@@ -22,7 +20,6 @@
       <change beforePath="$PROJECT_DIR$/front-end/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/views/HomeView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/postRequests.php" beforeDir="false" afterPath="$PROJECT_DIR$/headers/postRequests.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/ticket/create.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +40,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/front-end" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2Dnu64cmxHBvrb6slbZ9OK5cova" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -84,7 +81,7 @@
       <workItem from="1661346991984" duration="387000" />
       <workItem from="1661347401831" duration="10293000" />
       <workItem from="1661406471449" duration="1575000" />
-      <workItem from="1661408574720" duration="19560000" />
+      <workItem from="1661408574720" duration="21022000" />
     </task>
     <servers />
   </component>

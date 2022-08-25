@@ -6,7 +6,7 @@
 
     $request = json_decode(file_get_contents("php://input"));
 
-    if(!empty($request->title)  && !empty($request->description) && !empty($request->user_id) && !empty($request->status) && !empty($request->date_submitted)){
+    if(!empty($request->title)  && !empty($request->description)){
 
         $query = $connection->prepare('INSERT INTO tickets(`title`,  `description`, `user_id`, `status`, `date_submitted`) 
                                              VALUES (:title, :description , :user_id, :status, :date_submitted)');
@@ -28,7 +28,8 @@
         echo json_encode([
             "message" => "Unable to create ticket.",
             "errors" => [
-                "title" => "You have a missing field..",
+                "title" => "The title field is required..",
+                "description" => "The description field is required.",
             ]
         ]);
     }
