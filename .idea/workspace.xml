@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ef7b196-8a3b-4e3d-b6b8-8d4195b0a388" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end" beforeDir="false" afterPath="$PROJECT_DIR$/front-end" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/headers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2021.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -47,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\php_projects\php_ticket_system" />
       <recent name="C:\xampp\htdocs\php_projects\php_ticket_system\headers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -66,7 +64,7 @@
       <workItem from="1661346991984" duration="387000" />
       <workItem from="1661347401831" duration="10293000" />
       <workItem from="1661406471449" duration="1575000" />
-      <workItem from="1661408574720" duration="22207000" />
+      <workItem from="1661408574720" duration="22432000" />
     </task>
     <servers />
   </component>
