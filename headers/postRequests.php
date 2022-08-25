@@ -3,11 +3,12 @@ function cors() {
     // Allow from any origin
     if (isset($_SERVER['HTTP_ORIGIN'])) {
         header("Access-Control-Allow-Origin: *");
+        header("Content-Type: application/json; charset=UTF-8");
         header("Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE, OPTIONS");
         header("Access-Control-Allow-Headers: Origin, Authorization, X-Requested-With, Content-Type, Accept");
         header('Access-Control-Allow-Credentials: true');
         header('Access-Control-Max-Age: 86400');    // cache for 1 day
-        header("Content-Type: application/json; charset=UTF-8");
+
     }
 
     // Access-Control headers are received during OPTIONS requests

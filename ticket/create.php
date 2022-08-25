@@ -28,8 +28,7 @@
         echo json_encode([
             "message" => "Unable to create ticket.",
             "errors" => [
-                "title" => "The title field is required.",
-                "description" => "The description field is required."
+                "title" => "You have a missing field..",
             ]
         ]);
     }

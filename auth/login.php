@@ -17,11 +17,11 @@ if(!empty($request->username) && !empty($request->password)){
         echo json_encode([
             "success" => true,
             "message" => "User successfully logged in.",
-            "authToken" => "123456"
+            "user" => $result
         ]);
 
     }else{
-        http_response_code(403);
+        http_response_code(401);
         echo json_encode([
             "success" => false,
             "message" => "Username or password incorrect.",
@@ -31,7 +31,7 @@ if(!empty($request->username) && !empty($request->password)){
         ]);
     }
 }else{
-    http_response_code(400);
+    http_response_code(422);
     echo json_encode([
         "success" => false,
         "message" => "Incorrect username or password.",
